@@ -1,0 +1,22 @@
+PODS:
+  - DANCurlRequest (1.0.1)
+  - Interstellar (1.4.0):
+    - Interstellar/Core (= 1.4.0)
+    - Interstellar/Warpdrive (= 1.4.0)
+  - Interstellar/Core (1.4.0)
+  - Interstellar/Warpdrive (1.4.0):
+    - Interstellar/Core
+  - Result (1.0.2)
+
+DEPENDENCIES:
+  - DANCurlRequest
+  - Interstellar
+  - Interstellar (~> 1.4.0)
+  - Result (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  DANCurlRequest: b0674429a5ffb4b386221fccbb2eafa29a59208c
+  Interstellar: 40fc666872436d6c1b3524c59437ebdb5dec1c6a
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+
+COCOAPODS: 0.39.0

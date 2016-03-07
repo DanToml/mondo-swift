@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0438D95BE1C070579EA0DCD94427479E /* Pods-MondoAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E4E1913FADEC69DB0FBC2E3BB0995 /* Pods-MondoAPI-dummy.m */; };
+		0579296941ECD1A5A06208C89E993D91 /* Pods-MondoAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA0C1042E9B38A86539570FD7E4CEE0 /* Pods-MondoAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2C8E1FBB3A5ACF77DBF8CA7E2A36D7 /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BE31A8FDFD6DA157FB06B35E50A2DE /* Result-dummy.m */; };
+		29835DFCFAB89F3C72EE2E1E0FE8CB33 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4979F71AC61DB21A5E4F04DD71B9F /* Signal.swift */; };
+		35DDE892C674F3D90373ED73282F9FAE /* DANCurlRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B7FFAEE6DB5C468C8718B34A45FD2 /* DANCurlRequest-dummy.m */; };
+		372D78B932D265B0A0CE287A159E58AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		3957CC6C8D9002A58F124D4BC380DBF0 /* Interstellar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B55CFB03F17CD7197ED7B41CB72094 /* Interstellar-dummy.m */; };
+		3FB5AFAFE067B60318508C5A7F4481B5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2325BAE05760A07D5C5EDC6B21EBAEB9 /* Result.swift */; };
+		511405C8720ADD5F8045EB26A9B56551 /* Interstellar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EBE7EE85ACC5C62E6A6EBA9EA2A7D8 /* Interstellar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		674A85D3D8615E156CFD48539D07095F /* DANCurlRequest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0336E217EAF1D8E15B9C10CAE1E42AF /* DANCurlRequest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A863CB0CFAA89E17F4C040E075B1523 /* Waiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F87D616D910D2B89E6F6C00AF63ACE4 /* Waiting.swift */; };
+		6E09C07C16579666F6DB606C14467683 /* Pods-MondoAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4F06A508622A18169C179CB8F2AA94 /* Pods-MondoAPITests-dummy.m */; };
+		6F131429E7B1454B8EB19679824D4BB0 /* Pods-MondoAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D6F9A6EE89C98605A6594C5A7077D0 /* Pods-MondoAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B84C14ABB87C2DD050A6F5A12195DB /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA02F215A5B8170E1D9FC830A4C7862 /* ResultType.swift */; };
+		720F22C36FF5E6F8E150059244A19F57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		76D72ACE6A2F302C90580412E94EB60B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		8626BCC3406A93A7D0CE502B9098086E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9711CD2A3222B65B506B47BACE1EFE /* Result.swift */; };
+		8F78A3CE431B389C31970DC5591D0BE3 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B945B9E4CFE2FAFAB5AFE40703B17 /* Threading.swift */; };
+		98612FAAF4BDCE0B7B9C3F210BC6A960 /* DANCurlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8FE60CD703D326993251E83771CDA /* DANCurlRequest.m */; };
+		9DA882DD7057124223239C23C65AF866 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B5589AB560B6F16299B2035F92A1B /* Debounce.swift */; };
+		B0C3E625ECFDBA6F02FF8E96BDA56144 /* DANCurlRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFC574606E950B11CF8136EB4474CEA /* DANCurlRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B26422642B27DCC9B2061C14BE36A68D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3EC75D377DD5BA354478D5097A396 /* Delay.swift */; };
+		C9FD452A786BE51FFE21885B23280860 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		D71C61E38110DCF9993BC861AEB129CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		F883E848AB6FD44DBE4830FF84CDBA7D /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F72F6AB3E5CCFA78B7319FAB0D90C5 /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39E7EA75944F7F42A2239A6D8864B2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F00ECC4B1EDB112F6E8DF3034CC3BD4E;
+			remoteInfo = Result;
+		};
+		A406A134E7B467EA6300DE4442464F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A95BFDB493B2A78C21420CDBCF81A5;
+			remoteInfo = Interstellar;
+		};
+		F9C2C2FE233D9A127BC2BEF06CC94F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9186C4CC421A7BBD058C04BC55B14E7D;
+			remoteInfo = DANCurlRequest;
+		};
+		FBD7E98F9D1FC3857B4A8D106A4E0BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A95BFDB493B2A78C21420CDBCF81A5;
+			remoteInfo = Interstellar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8B7FFAEE6DB5C468C8718B34A45FD2 /* DANCurlRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DANCurlRequest-dummy.m"; sourceTree = "<group>"; };
+		147B7CECCC42097BD71321ED7838C095 /* Pods_MondoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C0C971F87952CFC1AC5C532897ED71 /* DANCurlRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DANCurlRequest.modulemap; sourceTree = "<group>"; };
+		1A11F8B5315BA62D585F375267640FD4 /* Pods-MondoAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1D5A96CEB85C98A1F986BC34FB0BC4C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D620C7CE949EB009518A147ADF5B7E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2325BAE05760A07D5C5EDC6B21EBAEB9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		23EBE7EE85ACC5C62E6A6EBA9EA2A7D8 /* Interstellar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Interstellar-umbrella.h"; sourceTree = "<group>"; };
+		23F72F6AB3E5CCFA78B7319FAB0D90C5 /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
+		2AA30633467C9A0C3C530194BAD8348D /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Result.modulemap; sourceTree = "<group>"; };
+		320BC3EF6BC95A92F530AE42614940EB /* DANCurlRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DANCurlRequest-prefix.pch"; sourceTree = "<group>"; };
+		32BD6952453954D5F374A6A13D3EBB6C /* DANCurlRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DANCurlRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336FB68C3319125AEDB0F6ADAA2AF8D3 /* Pods-MondoAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MondoAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A3185DE736803725575B333EEECCFCA /* Interstellar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Interstellar.xcconfig; sourceTree = "<group>"; };
+		44999DAFE3A8ECCFFB2169E853074950 /* Pods-MondoAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MondoAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47370E7A9FEAA268CFB8D5F76243B5AE /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E99E14A8451B27F82C4D9830BAC1F62 /* Pods-MondoAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MondoAPI-resources.sh"; sourceTree = "<group>"; };
+		56A3EC75D377DD5BA354478D5097A396 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = Sources/Delay.swift; sourceTree = "<group>"; };
+		5A2C0C1E867F9F124BC6D922EE944617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3E4E1913FADEC69DB0FBC2E3BB0995 /* Pods-MondoAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MondoAPI-dummy.m"; sourceTree = "<group>"; };
+		63A7F777B6D575175CB202FA35FD2DC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6415AE77C9D91C18988C29A869ACE78F /* Pods-MondoAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MondoAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66B55CFB03F17CD7197ED7B41CB72094 /* Interstellar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Interstellar-dummy.m"; sourceTree = "<group>"; };
+		67B8FE60CD703D326993251E83771CDA /* DANCurlRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DANCurlRequest.m; path = DANCurlRequest/DANCurlRequest.m; sourceTree = "<group>"; };
+		6BA02F215A5B8170E1D9FC830A4C7862 /* ResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultType.swift; path = Result/ResultType.swift; sourceTree = "<group>"; };
+		6CA0C1042E9B38A86539570FD7E4CEE0 /* Pods-MondoAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MondoAPI-umbrella.h"; sourceTree = "<group>"; };
+		6F87D616D910D2B89E6F6C00AF63ACE4 /* Waiting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Waiting.swift; path = Sources/Waiting.swift; sourceTree = "<group>"; };
+		740B5589AB560B6F16299B2035F92A1B /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = Sources/Debounce.swift; sourceTree = "<group>"; };
+		775C493C76DADEB17B0B5F57F9F86061 /* Pods_MondoAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BE31A8FDFD6DA157FB06B35E50A2DE /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		8C9711CD2A3222B65B506B47BACE1EFE /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		8F0EEB9C90B44E2BD88A740C6D597DAB /* Pods-MondoAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MondoAPITests-frameworks.sh"; sourceTree = "<group>"; };
+		929B945B9E4CFE2FAFAB5AFE40703B17 /* Threading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Threading.swift; path = Sources/Threading.swift; sourceTree = "<group>"; };
+		9CAC5E06197C637A215A9EF5BDE5E959 /* Pods-MondoAPI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MondoAPI-frameworks.sh"; sourceTree = "<group>"; };
+		A06C9CDB2134327C0E7DF5C45C1A298B /* Result.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.xcconfig; sourceTree = "<group>"; };
+		B01FCEF89D5F673F43652BB61A5B5D7B /* Interstellar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Interstellar.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCA5FE881A10206949FF0C10F9606A63 /* Pods-MondoAPITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MondoAPITests-resources.sh"; sourceTree = "<group>"; };
+		BF4F06A508622A18169C179CB8F2AA94 /* Pods-MondoAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MondoAPITests-dummy.m"; sourceTree = "<group>"; };
+		C0336E217EAF1D8E15B9C10CAE1E42AF /* DANCurlRequest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DANCurlRequest-umbrella.h"; sourceTree = "<group>"; };
+		D0D6F9A6EE89C98605A6594C5A7077D0 /* Pods-MondoAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MondoAPITests-umbrella.h"; sourceTree = "<group>"; };
+		D0F4979F71AC61DB21A5E4F04DD71B9F /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Sources/Signal.swift; sourceTree = "<group>"; };
+		D0FC9C05A89F043E0BF4BC6BB3B6711B /* DANCurlRequest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DANCurlRequest.xcconfig; sourceTree = "<group>"; };
+		D53B14CE2458693B00206F1B1593DD56 /* Pods-MondoAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6203B4748276BD0E4518B68985B8D0A /* Pods-MondoAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoAPI.release.xcconfig"; sourceTree = "<group>"; };
+		D96798899B570CF3486BE8E9DB9E16C6 /* Pods-MondoAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCED9BA552FE51186E996FDED22F3532 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC054F4D55BA9DC0BA234BC6878A233 /* Pods-MondoAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MondoAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E638D63AE9C3BF426554E665A89568EB /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
+		ED64EC34CE3CBB1BE1EEFB61A2556C1F /* Interstellar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Interstellar-prefix.pch"; sourceTree = "<group>"; };
+		EDFC574606E950B11CF8136EB4474CEA /* DANCurlRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DANCurlRequest.h; path = DANCurlRequest/DANCurlRequest.h; sourceTree = "<group>"; };
+		EEA114C76777062A7451EB9DA00465F8 /* Pods-MondoAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MondoAPITests.modulemap"; sourceTree = "<group>"; };
+		FB466403B29BD639E4A07429A6DF0A26 /* Pods-MondoAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MondoAPI.modulemap"; sourceTree = "<group>"; };
+		FFF8214107CF7F4765B63D0BD1FA7358 /* Interstellar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Interstellar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2473FA19CF80426624934DC70998A02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D72ACE6A2F302C90580412E94EB60B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B48239E73B95B8B929895421D103BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720F22C36FF5E6F8E150059244A19F57 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D60CCAF06D017A9BFE6868230C0393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71C61E38110DCF9993BC861AEB129CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76DA3C58DCBBCC2383585D46D363B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FD452A786BE51FFE21885B23280860 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF4CC5D506E26E2A36EDA6A3E611D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D78B932D265B0A0CE287A159E58AF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A3D29FA2CB815EFD94345C5A723E2C /* Pods-MondoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1D620C7CE949EB009518A147ADF5B7E0 /* Info.plist */,
+				FB466403B29BD639E4A07429A6DF0A26 /* Pods-MondoAPI.modulemap */,
+				44999DAFE3A8ECCFFB2169E853074950 /* Pods-MondoAPI-acknowledgements.markdown */,
+				336FB68C3319125AEDB0F6ADAA2AF8D3 /* Pods-MondoAPI-acknowledgements.plist */,
+				5A3E4E1913FADEC69DB0FBC2E3BB0995 /* Pods-MondoAPI-dummy.m */,
+				9CAC5E06197C637A215A9EF5BDE5E959 /* Pods-MondoAPI-frameworks.sh */,
+				4E99E14A8451B27F82C4D9830BAC1F62 /* Pods-MondoAPI-resources.sh */,
+				6CA0C1042E9B38A86539570FD7E4CEE0 /* Pods-MondoAPI-umbrella.h */,
+				1A11F8B5315BA62D585F375267640FD4 /* Pods-MondoAPI.debug.xcconfig */,
+				D6203B4748276BD0E4518B68985B8D0A /* Pods-MondoAPI.release.xcconfig */,
+			);
+			name = "Pods-MondoAPI";
+			path = "Target Support Files/Pods-MondoAPI";
+			sourceTree = "<group>";
+		};
+		0A32A25FB32AE93C69EDF1F18080D804 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A7F777B6D575175CB202FA35FD2DC6 /* Info.plist */,
+				2AA30633467C9A0C3C530194BAD8348D /* Result.modulemap */,
+				A06C9CDB2134327C0E7DF5C45C1A298B /* Result.xcconfig */,
+				77BE31A8FDFD6DA157FB06B35E50A2DE /* Result-dummy.m */,
+				E638D63AE9C3BF426554E665A89568EB /* Result-prefix.pch */,
+				23F72F6AB3E5CCFA78B7319FAB0D90C5 /* Result-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Result";
+			sourceTree = "<group>";
+		};
+		1306BF0036AEDA2F8E2C1A849E356991 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A96CEB85C98A1F986BC34FB0BC4C4 /* Info.plist */,
+				B01FCEF89D5F673F43652BB61A5B5D7B /* Interstellar.modulemap */,
+				3A3185DE736803725575B333EEECCFCA /* Interstellar.xcconfig */,
+				66B55CFB03F17CD7197ED7B41CB72094 /* Interstellar-dummy.m */,
+				ED64EC34CE3CBB1BE1EEFB61A2556C1F /* Interstellar-prefix.pch */,
+				23EBE7EE85ACC5C62E6A6EBA9EA2A7D8 /* Interstellar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Interstellar";
+			sourceTree = "<group>";
+		};
+		1662C028772C398B2E76AB355F59802B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				2325BAE05760A07D5C5EDC6B21EBAEB9 /* Result.swift */,
+				6BA02F215A5B8170E1D9FC830A4C7862 /* ResultType.swift */,
+				0A32A25FB32AE93C69EDF1F18080D804 /* Support Files */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		1F6B105A77BF8DAD1E78E7DD7D9123C0 /* Interstellar */ = {
+			isa = PBXGroup;
+			children = (
+				2308AAC13FBECB32A0A45E89C14B2141 /* Core */,
+				1306BF0036AEDA2F8E2C1A849E356991 /* Support Files */,
+				D90B36BDB79659AB8C6170BCAB920C91 /* Warpdrive */,
+			);
+			path = Interstellar;
+			sourceTree = "<group>";
+		};
+		2308AAC13FBECB32A0A45E89C14B2141 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C9711CD2A3222B65B506B47BACE1EFE /* Result.swift */,
+				D0F4979F71AC61DB21A5E4F04DD71B9F /* Signal.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2A5BCCBA85B538B2BCB18C4DAFB8853D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BD6952453954D5F374A6A13D3EBB6C /* DANCurlRequest.framework */,
+				FFF8214107CF7F4765B63D0BD1FA7358 /* Interstellar.framework */,
+				147B7CECCC42097BD71321ED7838C095 /* Pods_MondoAPI.framework */,
+				775C493C76DADEB17B0B5F57F9F86061 /* Pods_MondoAPITests.framework */,
+				47370E7A9FEAA268CFB8D5F76243B5AE /* Result.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				AC4FA1931FF3EB8CA769AEE5F0990131 /* Pods */,
+				2A5BCCBA85B538B2BCB18C4DAFB8853D /* Products */,
+				BE851FE49A7763168963558E0C7BF5CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC3E4BC720BB5B168379D26BF7A13A2 /* DANCurlRequest */ = {
+			isa = PBXGroup;
+			children = (
+				EDFC574606E950B11CF8136EB4474CEA /* DANCurlRequest.h */,
+				67B8FE60CD703D326993251E83771CDA /* DANCurlRequest.m */,
+				9F33534C34771A63E776DF0DE00EB33C /* Support Files */,
+			);
+			path = DANCurlRequest;
+			sourceTree = "<group>";
+		};
+		9F33534C34771A63E776DF0DE00EB33C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C0C971F87952CFC1AC5C532897ED71 /* DANCurlRequest.modulemap */,
+				D0FC9C05A89F043E0BF4BC6BB3B6711B /* DANCurlRequest.xcconfig */,
+				0A8B7FFAEE6DB5C468C8718B34A45FD2 /* DANCurlRequest-dummy.m */,
+				320BC3EF6BC95A92F530AE42614940EB /* DANCurlRequest-prefix.pch */,
+				C0336E217EAF1D8E15B9C10CAE1E42AF /* DANCurlRequest-umbrella.h */,
+				5A2C0C1E867F9F124BC6D922EE944617 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DANCurlRequest";
+			sourceTree = "<group>";
+		};
+		AC4FA1931FF3EB8CA769AEE5F0990131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EC3E4BC720BB5B168379D26BF7A13A2 /* DANCurlRequest */,
+				1F6B105A77BF8DAD1E78E7DD7D9123C0 /* Interstellar */,
+				1662C028772C398B2E76AB355F59802B /* Result */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE851FE49A7763168963558E0C7BF5CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09A3D29FA2CB815EFD94345C5A723E2C /* Pods-MondoAPI */,
+				FDFB390AA41B98098586C73D19F68B0E /* Pods-MondoAPITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D90B36BDB79659AB8C6170BCAB920C91 /* Warpdrive */ = {
+			isa = PBXGroup;
+			children = (
+				740B5589AB560B6F16299B2035F92A1B /* Debounce.swift */,
+				56A3EC75D377DD5BA354478D5097A396 /* Delay.swift */,
+				929B945B9E4CFE2FAFAB5AFE40703B17 /* Threading.swift */,
+				6F87D616D910D2B89E6F6C00AF63ACE4 /* Waiting.swift */,
+			);
+			name = Warpdrive;
+			sourceTree = "<group>";
+		};
+		FDFB390AA41B98098586C73D19F68B0E /* Pods-MondoAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCED9BA552FE51186E996FDED22F3532 /* Info.plist */,
+				EEA114C76777062A7451EB9DA00465F8 /* Pods-MondoAPITests.modulemap */,
+				DDC054F4D55BA9DC0BA234BC6878A233 /* Pods-MondoAPITests-acknowledgements.markdown */,
+				6415AE77C9D91C18988C29A869ACE78F /* Pods-MondoAPITests-acknowledgements.plist */,
+				BF4F06A508622A18169C179CB8F2AA94 /* Pods-MondoAPITests-dummy.m */,
+				8F0EEB9C90B44E2BD88A740C6D597DAB /* Pods-MondoAPITests-frameworks.sh */,
+				BCA5FE881A10206949FF0C10F9606A63 /* Pods-MondoAPITests-resources.sh */,
+				D0D6F9A6EE89C98605A6594C5A7077D0 /* Pods-MondoAPITests-umbrella.h */,
+				D96798899B570CF3486BE8E9DB9E16C6 /* Pods-MondoAPITests.debug.xcconfig */,
+				D53B14CE2458693B00206F1B1593DD56 /* Pods-MondoAPITests.release.xcconfig */,
+			);
+			name = "Pods-MondoAPITests";
+			path = "Target Support Files/Pods-MondoAPITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		196C1045F49E273E6550BB9AD2FF19E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F131429E7B1454B8EB19679824D4BB0 /* Pods-MondoAPITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459C2B513CAB58C2E98BCD75FFC17F4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0579296941ECD1A5A06208C89E993D91 /* Pods-MondoAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64019AC3690FEF04C16144E79D02D7B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A85D3D8615E156CFD48539D07095F /* DANCurlRequest-umbrella.h in Headers */,
+				B0C3E625ECFDBA6F02FF8E96BDA56144 /* DANCurlRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC735F809765237E7C9B2CCEAA29E427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511405C8720ADD5F8045EB26A9B56551 /* Interstellar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA502CBA0A178C5EE7112BCAEAA6BD94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F883E848AB6FD44DBE4830FF84CDBA7D /* Result-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		136F0DDB626BC9EC43E928D6B45ED1A3 /* Pods-MondoAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1061D3743B6595E797990B389D5D474 /* Build configuration list for PBXNativeTarget "Pods-MondoAPI" */;
+			buildPhases = (
+				DA83F224703F886F5663010B37F58541 /* Sources */,
+				2473FA19CF80426624934DC70998A02D /* Frameworks */,
+				459C2B513CAB58C2E98BCD75FFC17F4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C4E5072F9484377A44A9EAA0139B139 /* PBXTargetDependency */,
+				CBB4E8D9C91182689CD4E8963200AF23 /* PBXTargetDependency */,
+				7F19A1B7716B7D812EF4F6A091121FAE /* PBXTargetDependency */,
+			);
+			name = "Pods-MondoAPI";
+			productName = "Pods-MondoAPI";
+			productReference = 147B7CECCC42097BD71321ED7838C095 /* Pods_MondoAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CFEEC4AF92AD4BF606970453D2734B4 /* Pods-MondoAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F973705AEBBE68428E853C6FBAD0A850 /* Build configuration list for PBXNativeTarget "Pods-MondoAPITests" */;
+			buildPhases = (
+				2F8924AD2313217491FEF1D811C3F802 /* Sources */,
+				8B48239E73B95B8B929895421D103BD7 /* Frameworks */,
+				196C1045F49E273E6550BB9AD2FF19E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631D85BD978C67DD978F26178B663940 /* PBXTargetDependency */,
+			);
+			name = "Pods-MondoAPITests";
+			productName = "Pods-MondoAPITests";
+			productReference = 775C493C76DADEB17B0B5F57F9F86061 /* Pods_MondoAPITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9186C4CC421A7BBD058C04BC55B14E7D /* DANCurlRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3AEC4124700DEDCFB7675C5B8202A1 /* Build configuration list for PBXNativeTarget "DANCurlRequest" */;
+			buildPhases = (
+				7A0ACD7D83F5753F614B2F64415B83DB /* Sources */,
+				D76DA3C58DCBBCC2383585D46D363B8F /* Frameworks */,
+				64019AC3690FEF04C16144E79D02D7B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DANCurlRequest;
+			productName = DANCurlRequest;
+			productReference = 32BD6952453954D5F374A6A13D3EBB6C /* DANCurlRequest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7740FD2244F1BCE3E4973E535661D5 /* Build configuration list for PBXNativeTarget "Interstellar" */;
+			buildPhases = (
+				7021C105140CB9C2D2E82BFC775B8F16 /* Sources */,
+				DFF4CC5D506E26E2A36EDA6A3E611D65 /* Frameworks */,
+				BC735F809765237E7C9B2CCEAA29E427 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interstellar;
+			productName = Interstellar;
+			productReference = FFF8214107CF7F4765B63D0BD1FA7358 /* Interstellar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F00ECC4B1EDB112F6E8DF3034CC3BD4E /* Result */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BAC3E658A3A6F59E1B98C4C205508C /* Build configuration list for PBXNativeTarget "Result" */;
+			buildPhases = (
+				FDB84FB3414D088A7FC78CDCB131B7F0 /* Sources */,
+				B4D60CCAF06D017A9BFE6868230C0393 /* Frameworks */,
+				FA502CBA0A178C5EE7112BCAEAA6BD94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Result;
+			productName = Result;
+			productReference = 47370E7A9FEAA268CFB8D5F76243B5AE /* Result.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2A5BCCBA85B538B2BCB18C4DAFB8853D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9186C4CC421A7BBD058C04BC55B14E7D /* DANCurlRequest */,
+				C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */,
+				136F0DDB626BC9EC43E928D6B45ED1A3 /* Pods-MondoAPI */,
+				1CFEEC4AF92AD4BF606970453D2734B4 /* Pods-MondoAPITests */,
+				F00ECC4B1EDB112F6E8DF3034CC3BD4E /* Result */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8924AD2313217491FEF1D811C3F802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E09C07C16579666F6DB606C14467683 /* Pods-MondoAPITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7021C105140CB9C2D2E82BFC775B8F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA882DD7057124223239C23C65AF866 /* Debounce.swift in Sources */,
+				B26422642B27DCC9B2061C14BE36A68D /* Delay.swift in Sources */,
+				3957CC6C8D9002A58F124D4BC380DBF0 /* Interstellar-dummy.m in Sources */,
+				8626BCC3406A93A7D0CE502B9098086E /* Result.swift in Sources */,
+				29835DFCFAB89F3C72EE2E1E0FE8CB33 /* Signal.swift in Sources */,
+				8F78A3CE431B389C31970DC5591D0BE3 /* Threading.swift in Sources */,
+				6A863CB0CFAA89E17F4C040E075B1523 /* Waiting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0ACD7D83F5753F614B2F64415B83DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DDE892C674F3D90373ED73282F9FAE /* DANCurlRequest-dummy.m in Sources */,
+				98612FAAF4BDCE0B7B9C3F210BC6A960 /* DANCurlRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA83F224703F886F5663010B37F58541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0438D95BE1C070579EA0DCD94427479E /* Pods-MondoAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB84FB3414D088A7FC78CDCB131B7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2C8E1FBB3A5ACF77DBF8CA7E2A36D7 /* Result-dummy.m in Sources */,
+				3FB5AFAFE067B60318508C5A7F4481B5 /* Result.swift in Sources */,
+				70B84C14ABB87C2DD050A6F5A12195DB /* ResultType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C4E5072F9484377A44A9EAA0139B139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DANCurlRequest;
+			target = 9186C4CC421A7BBD058C04BC55B14E7D /* DANCurlRequest */;
+			targetProxy = F9C2C2FE233D9A127BC2BEF06CC94F4A /* PBXContainerItemProxy */;
+		};
+		631D85BD978C67DD978F26178B663940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Interstellar;
+			target = C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */;
+			targetProxy = A406A134E7B467EA6300DE4442464F63 /* PBXContainerItemProxy */;
+		};
+		7F19A1B7716B7D812EF4F6A091121FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = F00ECC4B1EDB112F6E8DF3034CC3BD4E /* Result */;
+			targetProxy = 39E7EA75944F7F42A2239A6D8864B2EA /* PBXContainerItemProxy */;
+		};
+		CBB4E8D9C91182689CD4E8963200AF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Interstellar;
+			target = C8A95BFDB493B2A78C21420CDBCF81A5 /* Interstellar */;
+			targetProxy = FBD7E98F9D1FC3857B4A8D106A4E0BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0292980BBD968388EF02661CEC617D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3185DE736803725575B333EEECCFCA /* Interstellar.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Interstellar/Interstellar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Interstellar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Interstellar/Interstellar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Interstellar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E435DBA8756E09C7A8BB28DFB0A5C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FC9C05A89F043E0BF4BC6BB3B6711B /* DANCurlRequest.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/DANCurlRequest/DANCurlRequest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DANCurlRequest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/DANCurlRequest/DANCurlRequest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DANCurlRequest;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10B2EE21B5D67EE2C819831CCC43832B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2A77FB3A5A4219F7F3DF180D8134817C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06C9CDB2134327C0E7DF5C45C1A298B /* Result.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Result;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4317A9358230A4CE3D04648B9F559900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A11F8B5315BA62D585F375267640FD4 /* Pods-MondoAPI.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoAPI/Pods-MondoAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MondoAPI;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CCA73AAAC25F753BCB108C1571CBD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FC9C05A89F043E0BF4BC6BB3B6711B /* DANCurlRequest.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/DANCurlRequest/DANCurlRequest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DANCurlRequest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/DANCurlRequest/DANCurlRequest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DANCurlRequest;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58667B7062E4E52ED57FFCC5F4825AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3185DE736803725575B333EEECCFCA /* Interstellar.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Interstellar/Interstellar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Interstellar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Interstellar/Interstellar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Interstellar;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07D96CC7C445E83983A6C6420BC692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BE54B60EFA78C4B31EBC94BAFDDDF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06C9CDB2134327C0E7DF5C45C1A298B /* Result.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Result;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9BB9D7B2422F0A4720FD3270E81EB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6203B4748276BD0E4518B68985B8D0A /* Pods-MondoAPI.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoAPI/Pods-MondoAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MondoAPI;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA3BE0101719CEC2AAD196E0BBD85A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96798899B570CF3486BE8E9DB9E16C6 /* Pods-MondoAPITests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MondoAPITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5F6182C2D85603C0C924B33F32B69C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53B14CE2458693B00206F1B1593DD56 /* Pods-MondoAPITests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MondoAPITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B2EE21B5D67EE2C819831CCC43832B /* Debug */,
+				7C07D96CC7C445E83983A6C6420BC692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BAC3E658A3A6F59E1B98C4C205508C /* Build configuration list for PBXNativeTarget "Result" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A77FB3A5A4219F7F3DF180D8134817C /* Debug */,
+				8BE54B60EFA78C4B31EBC94BAFDDDF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7740FD2244F1BCE3E4973E535661D5 /* Build configuration list for PBXNativeTarget "Interstellar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0292980BBD968388EF02661CEC617D18 /* Debug */,
+				58667B7062E4E52ED57FFCC5F4825AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1061D3743B6595E797990B389D5D474 /* Build configuration list for PBXNativeTarget "Pods-MondoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4317A9358230A4CE3D04648B9F559900 /* Debug */,
+				C9BB9D7B2422F0A4720FD3270E81EB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3AEC4124700DEDCFB7675C5B8202A1 /* Build configuration list for PBXNativeTarget "DANCurlRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCA73AAAC25F753BCB108C1571CBD85 /* Debug */,
+				0E435DBA8756E09C7A8BB28DFB0A5C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F973705AEBBE68428E853C6FBAD0A850 /* Build configuration list for PBXNativeTarget "Pods-MondoAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3BE0101719CEC2AAD196E0BBD85A71 /* Debug */,
+				D5F6182C2D85603C0C924B33F32B69C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
