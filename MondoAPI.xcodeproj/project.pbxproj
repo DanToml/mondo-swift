@@ -9,7 +9,18 @@
 /* Begin PBXBuildFile section */
 		655AEFDE1C8E090000B12261 /* MondoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 655AEFDD1C8E090000B12261 /* MondoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		655AEFE51C8E090000B12261 /* MondoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655AEFDA1C8E090000B12261 /* MondoAPI.framework */; };
-		655AEFEA1C8E090000B12261 /* MondoAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFE91C8E090000B12261 /* MondoAPITests.swift */; };
+		655AEFF51C8E090E00B12261 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFF41C8E090E00B12261 /* Client.swift */; };
+		655AEFF71C8E091300B12261 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFF61C8E091300B12261 /* Endpoint.swift */; };
+		655AEFF91C8E0C6600B12261 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFF81C8E0C6600B12261 /* Network.swift */; };
+		655AEFFB1C8E0F2100B12261 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFFA1C8E0F2100B12261 /* NetworkTests.swift */; };
+		655AEFFD1C8E0F2900B12261 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFFC1C8E0F2900B12261 /* EndpointTests.swift */; };
+		655AEFFF1C8E0F2E00B12261 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFFE1C8E0F2E00B12261 /* ClientTests.swift */; };
+		65956DCE1C8E299100360EB2 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DCD1C8E299100360EB2 /* Errors.swift */; };
+		65956DD01C8E30FC00360EB2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DCF1C8E30FC00360EB2 /* Method.swift */; };
+		65956DD21C8E337F00360EB2 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DD11C8E337F00360EB2 /* ParameterEncoder.swift */; };
+		65956DD61C8E3A7200360EB2 /* MondoEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DD51C8E3A7200360EB2 /* MondoEndpoints.swift */; };
+		7AE6848FDF08B74087894C98 /* Pods_MondoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD52FE9230633DAA2DAC7D1 /* Pods_MondoAPI.framework */; };
+		7CC8DE12420BD56C1D4EFC2D /* Pods_MondoAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4380C0A9AC9083D4153D92B2 /* Pods_MondoAPITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +34,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BD52FE9230633DAA2DAC7D1 /* Pods_MondoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D92A1D7211709301DE4A9EA /* Pods-MondoAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4380C0A9AC9083D4153D92B2 /* Pods_MondoAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D105C53F4D78002E004F5D1 /* Pods-MondoAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPI/Pods-MondoAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		655AEFDA1C8E090000B12261 /* MondoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MondoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		655AEFDD1C8E090000B12261 /* MondoAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MondoAPI.h; sourceTree = "<group>"; };
 		655AEFDF1C8E090000B12261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		655AEFE41C8E090000B12261 /* MondoAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MondoAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		655AEFE91C8E090000B12261 /* MondoAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondoAPITests.swift; sourceTree = "<group>"; };
 		655AEFEB1C8E090000B12261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655AEFF41C8E090E00B12261 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		655AEFF61C8E091300B12261 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		655AEFF81C8E0C6600B12261 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		655AEFFA1C8E0F2100B12261 /* NetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		655AEFFC1C8E0F2900B12261 /* EndpointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+		655AEFFE1C8E0F2E00B12261 /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
+		65956DCD1C8E299100360EB2 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		65956DCF1C8E30FC00360EB2 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		65956DD11C8E337F00360EB2 /* ParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
+		65956DD51C8E3A7200360EB2 /* MondoEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MondoEndpoints.swift; sourceTree = "<group>"; };
+		B289E6DF716505227DE1048B /* Pods-MondoAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB785EB3B2F2D390D26FB288 /* Pods-MondoAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPI/Pods-MondoAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE6848FDF08B74087894C98 /* Pods_MondoAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +71,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				655AEFE51C8E090000B12261 /* MondoAPI.framework in Frameworks */,
+				7CC8DE12420BD56C1D4EFC2D /* Pods_MondoAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0A1CD74FB327C1F5171C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD52FE9230633DAA2DAC7D1 /* Pods_MondoAPI.framework */,
+				4380C0A9AC9083D4153D92B2 /* Pods_MondoAPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		655AEFD01C8E090000B12261 = {
 			isa = PBXGroup;
 			children = (
 				655AEFDC1C8E090000B12261 /* MondoAPI */,
 				655AEFE81C8E090000B12261 /* MondoAPITests */,
 				655AEFDB1C8E090000B12261 /* Products */,
+				FEB01E2E7AC2A2E52441774A /* Pods */,
+				5E0A1CD74FB327C1F5171C53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +111,13 @@
 			isa = PBXGroup;
 			children = (
 				655AEFDD1C8E090000B12261 /* MondoAPI.h */,
+				655AEFF41C8E090E00B12261 /* Client.swift */,
+				655AEFF81C8E0C6600B12261 /* Network.swift */,
+				65956DCD1C8E299100360EB2 /* Errors.swift */,
+				655AEFF61C8E091300B12261 /* Endpoint.swift */,
+				65956DD51C8E3A7200360EB2 /* MondoEndpoints.swift */,
+				65956DD11C8E337F00360EB2 /* ParameterEncoder.swift */,
+				65956DCF1C8E30FC00360EB2 /* Method.swift */,
 				655AEFDF1C8E090000B12261 /* Info.plist */,
 			);
 			path = MondoAPI;
@@ -80,10 +126,23 @@
 		655AEFE81C8E090000B12261 /* MondoAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				655AEFE91C8E090000B12261 /* MondoAPITests.swift */,
 				655AEFEB1C8E090000B12261 /* Info.plist */,
+				655AEFFA1C8E0F2100B12261 /* NetworkTests.swift */,
+				655AEFFC1C8E0F2900B12261 /* EndpointTests.swift */,
+				655AEFFE1C8E0F2E00B12261 /* ClientTests.swift */,
 			);
 			path = MondoAPITests;
+			sourceTree = "<group>";
+		};
+		FEB01E2E7AC2A2E52441774A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D105C53F4D78002E004F5D1 /* Pods-MondoAPI.debug.xcconfig */,
+				EB785EB3B2F2D390D26FB288 /* Pods-MondoAPI.release.xcconfig */,
+				0D92A1D7211709301DE4A9EA /* Pods-MondoAPITests.debug.xcconfig */,
+				B289E6DF716505227DE1048B /* Pods-MondoAPITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 655AEFEE1C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPI" */;
 			buildPhases = (
+				4551E0BBB72DB88172FD9E7B /* Check Pods Manifest.lock */,
 				655AEFD51C8E090000B12261 /* Sources */,
 				655AEFD61C8E090000B12261 /* Frameworks */,
 				655AEFD71C8E090000B12261 /* Headers */,
 				655AEFD81C8E090000B12261 /* Resources */,
+				21DC5F451E5328FF86CCEB4C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 655AEFF11C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPITests" */;
 			buildPhases = (
+				832A40C597B3498508DABC4D /* Check Pods Manifest.lock */,
 				655AEFE01C8E090000B12261 /* Sources */,
 				655AEFE11C8E090000B12261 /* Frameworks */,
 				655AEFE21C8E090000B12261 /* Resources */,
+				583CF8CF723905BD39E3D30F /* Embed Pods Frameworks */,
+				F9F670A7D80A3355E268261F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +253,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21DC5F451E5328FF86CCEB4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoAPI/Pods-MondoAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4551E0BBB72DB88172FD9E7B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		583CF8CF723905BD39E3D30F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		832A40C597B3498508DABC4D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F670A7D80A3355E268261F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		655AEFD51C8E090000B12261 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65956DD61C8E3A7200360EB2 /* MondoEndpoints.swift in Sources */,
+				655AEFF71C8E091300B12261 /* Endpoint.swift in Sources */,
+				65956DCE1C8E299100360EB2 /* Errors.swift in Sources */,
+				65956DD01C8E30FC00360EB2 /* Method.swift in Sources */,
+				655AEFF51C8E090E00B12261 /* Client.swift in Sources */,
+				65956DD21C8E337F00360EB2 /* ParameterEncoder.swift in Sources */,
+				655AEFF91C8E0C6600B12261 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655AEFEA1C8E090000B12261 /* MondoAPITests.swift in Sources */,
+				655AEFFD1C8E0F2900B12261 /* EndpointTests.swift in Sources */,
+				655AEFFF1C8E0F2E00B12261 /* ClientTests.swift in Sources */,
+				655AEFFB1C8E0F2100B12261 /* NetworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +455,9 @@
 		};
 		655AEFEF1C8E090000B12261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D105C53F4D78002E004F5D1 /* Pods-MondoAPI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -317,12 +470,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MondoAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		655AEFF01C8E090000B12261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB785EB3B2F2D390D26FB288 /* Pods-MondoAPI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -340,18 +496,23 @@
 		};
 		655AEFF21C8E090000B12261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D92A1D7211709301DE4A9EA /* Pods-MondoAPITests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MondoAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MondoAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		655AEFF31C8E090000B12261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B289E6DF716505227DE1048B /* Pods-MondoAPITests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MondoAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -379,6 +540,7 @@
 				655AEFF01C8E090000B12261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		655AEFF11C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPITests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +549,7 @@
 				655AEFF31C8E090000B12261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
