@@ -1,11 +1,10 @@
 use_frameworks!
 
-target 'MondoAPI' do
+target 'MonzoAPI' do
 podspec :path => 'MondoAPI.podspec'
 pod "DANCurlRequest"
 end
 
-target 'MondoAPITests' do
+target 'MonzoAPITests' do
 pod "Interstellar"
 end
-

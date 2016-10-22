@@ -1,6 +1,6 @@
 //
-//  MondoEndpoints.swift
-//  MondoAPI
+//  MonzoEndpoints.swift
+//  MonzoAPI
 //
 //  Created by Daniel Tomlinson on 07/03/2016.
 //  Copyright © 2016 Rocket Apps. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct MondoEndpoints {
+struct MonzoEndpoints {
     struct Transactions {
         static func findWithIdentifier(accessToken: String, transactionIdentifier: String) -> Endpoint {
             return Endpoint(
@@ -18,7 +18,7 @@ struct MondoEndpoints {
                 headers: ["Authorization" : "Bearer \(accessToken)"]
             )
         }
-        
+
         static func listForAccount(accessToken: String, accountIdentifier: String) -> Endpoint {
             return Endpoint(
                 uri: "transactions?account_id=\(accountIdentifier)",
@@ -27,7 +27,7 @@ struct MondoEndpoints {
             )
         }
     }
-    
+
     struct Balance {
         static func forAccount(accessToken: String, accountIdentifier: String) -> Endpoint {
             return Endpoint(

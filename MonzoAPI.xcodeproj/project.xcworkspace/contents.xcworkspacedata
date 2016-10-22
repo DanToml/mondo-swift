@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MondoAPI.xcodeproj">
+      location = "self:MonzoAPI.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		655AEFDE1C8E090000B12261 /* MondoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 655AEFDD1C8E090000B12261 /* MondoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		655AEFE51C8E090000B12261 /* MondoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655AEFDA1C8E090000B12261 /* MondoAPI.framework */; };
+		655AEFDE1C8E090000B12261 /* MonzoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 655AEFDD1C8E090000B12261 /* MonzoAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655AEFE51C8E090000B12261 /* MonzoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655AEFDA1C8E090000B12261 /* MonzoAPI.framework */; };
 		655AEFF51C8E090E00B12261 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFF41C8E090E00B12261 /* Client.swift */; };
 		655AEFF71C8E091300B12261 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFF61C8E091300B12261 /* Endpoint.swift */; };
 		655AEFF91C8E0C6600B12261 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655AEFF81C8E0C6600B12261 /* Network.swift */; };
@@ -18,9 +18,9 @@
 		65956DCE1C8E299100360EB2 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DCD1C8E299100360EB2 /* Errors.swift */; };
 		65956DD01C8E30FC00360EB2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DCF1C8E30FC00360EB2 /* Method.swift */; };
 		65956DD21C8E337F00360EB2 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DD11C8E337F00360EB2 /* ParameterEncoder.swift */; };
-		65956DD61C8E3A7200360EB2 /* MondoEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DD51C8E3A7200360EB2 /* MondoEndpoints.swift */; };
-		7AE6848FDF08B74087894C98 /* Pods_MondoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD52FE9230633DAA2DAC7D1 /* Pods_MondoAPI.framework */; };
-		7CC8DE12420BD56C1D4EFC2D /* Pods_MondoAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4380C0A9AC9083D4153D92B2 /* Pods_MondoAPITests.framework */; };
+		65956DD61C8E3A7200360EB2 /* MonzoEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65956DD51C8E3A7200360EB2 /* MonzoEndpoints.swift */; };
+		7AE6848FDF08B74087894C98 /* Pods_MonzoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD52FE9230633DAA2DAC7D1 /* Pods_MonzoAPI.framework */; };
+		7CC8DE12420BD56C1D4EFC2D /* Pods_MonzoAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4380C0A9AC9083D4153D92B2 /* Pods_MonzoAPITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,19 +29,19 @@
 			containerPortal = 655AEFD11C8E090000B12261 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 655AEFD91C8E090000B12261;
-			remoteInfo = MondoAPI;
+			remoteInfo = MonzoAPI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BD52FE9230633DAA2DAC7D1 /* Pods_MondoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D92A1D7211709301DE4A9EA /* Pods-MondoAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4380C0A9AC9083D4153D92B2 /* Pods_MondoAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D105C53F4D78002E004F5D1 /* Pods-MondoAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPI/Pods-MondoAPI.debug.xcconfig"; sourceTree = "<group>"; };
-		655AEFDA1C8E090000B12261 /* MondoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MondoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		655AEFDD1C8E090000B12261 /* MondoAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MondoAPI.h; sourceTree = "<group>"; };
+		0BD52FE9230633DAA2DAC7D1 /* Pods_MonzoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonzoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D92A1D7211709301DE4A9EA /* Pods-MonzoAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonzoAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonzoAPITests/Pods-MonzoAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4380C0A9AC9083D4153D92B2 /* Pods_MonzoAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonzoAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D105C53F4D78002E004F5D1 /* Pods-MonzoAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonzoAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonzoAPI/Pods-MonzoAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		655AEFDA1C8E090000B12261 /* MonzoAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MonzoAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		655AEFDD1C8E090000B12261 /* MonzoAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonzoAPI.h; sourceTree = "<group>"; };
 		655AEFDF1C8E090000B12261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		655AEFE41C8E090000B12261 /* MondoAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MondoAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655AEFE41C8E090000B12261 /* MonzoAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonzoAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655AEFEB1C8E090000B12261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		655AEFF41C8E090E00B12261 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		655AEFF61C8E091300B12261 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -52,9 +52,9 @@
 		65956DCD1C8E299100360EB2 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		65956DCF1C8E30FC00360EB2 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		65956DD11C8E337F00360EB2 /* ParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
-		65956DD51C8E3A7200360EB2 /* MondoEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MondoEndpoints.swift; sourceTree = "<group>"; };
-		B289E6DF716505227DE1048B /* Pods-MondoAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests.release.xcconfig"; sourceTree = "<group>"; };
-		EB785EB3B2F2D390D26FB288 /* Pods-MondoAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MondoAPI/Pods-MondoAPI.release.xcconfig"; sourceTree = "<group>"; };
+		65956DD51C8E3A7200360EB2 /* MonzoEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonzoEndpoints.swift; sourceTree = "<group>"; };
+		B289E6DF716505227DE1048B /* Pods-MonzoAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonzoAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonzoAPITests/Pods-MonzoAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB785EB3B2F2D390D26FB288 /* Pods-MonzoAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonzoAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonzoAPI/Pods-MonzoAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE6848FDF08B74087894C98 /* Pods_MondoAPI.framework in Frameworks */,
+				7AE6848FDF08B74087894C98 /* Pods_MonzoAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,8 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655AEFE51C8E090000B12261 /* MondoAPI.framework in Frameworks */,
-				7CC8DE12420BD56C1D4EFC2D /* Pods_MondoAPITests.framework in Frameworks */,
+				655AEFE51C8E090000B12261 /* MonzoAPI.framework in Frameworks */,
+				7CC8DE12420BD56C1D4EFC2D /* Pods_MonzoAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +81,8 @@
 		5E0A1CD74FB327C1F5171C53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0BD52FE9230633DAA2DAC7D1 /* Pods_MondoAPI.framework */,
-				4380C0A9AC9083D4153D92B2 /* Pods_MondoAPITests.framework */,
+				0BD52FE9230633DAA2DAC7D1 /* Pods_MonzoAPI.framework */,
+				4380C0A9AC9083D4153D92B2 /* Pods_MonzoAPITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,8 +90,8 @@
 		655AEFD01C8E090000B12261 = {
 			isa = PBXGroup;
 			children = (
-				655AEFDC1C8E090000B12261 /* MondoAPI */,
-				655AEFE81C8E090000B12261 /* MondoAPITests */,
+				655AEFDC1C8E090000B12261 /* MonzoAPI */,
+				655AEFE81C8E090000B12261 /* MonzoAPITests */,
 				655AEFDB1C8E090000B12261 /* Products */,
 				FEB01E2E7AC2A2E52441774A /* Pods */,
 				5E0A1CD74FB327C1F5171C53 /* Frameworks */,
@@ -101,29 +101,29 @@
 		655AEFDB1C8E090000B12261 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				655AEFDA1C8E090000B12261 /* MondoAPI.framework */,
-				655AEFE41C8E090000B12261 /* MondoAPITests.xctest */,
+				655AEFDA1C8E090000B12261 /* MonzoAPI.framework */,
+				655AEFE41C8E090000B12261 /* MonzoAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		655AEFDC1C8E090000B12261 /* MondoAPI */ = {
+		655AEFDC1C8E090000B12261 /* MonzoAPI */ = {
 			isa = PBXGroup;
 			children = (
-				655AEFDD1C8E090000B12261 /* MondoAPI.h */,
+				655AEFDD1C8E090000B12261 /* MonzoAPI.h */,
 				655AEFF41C8E090E00B12261 /* Client.swift */,
 				655AEFF81C8E0C6600B12261 /* Network.swift */,
 				65956DCD1C8E299100360EB2 /* Errors.swift */,
 				655AEFF61C8E091300B12261 /* Endpoint.swift */,
-				65956DD51C8E3A7200360EB2 /* MondoEndpoints.swift */,
+				65956DD51C8E3A7200360EB2 /* MonzoEndpoints.swift */,
 				65956DD11C8E337F00360EB2 /* ParameterEncoder.swift */,
 				65956DCF1C8E30FC00360EB2 /* Method.swift */,
 				655AEFDF1C8E090000B12261 /* Info.plist */,
 			);
-			path = MondoAPI;
+			path = MonzoAPI;
 			sourceTree = "<group>";
 		};
-		655AEFE81C8E090000B12261 /* MondoAPITests */ = {
+		655AEFE81C8E090000B12261 /* MonzoAPITests */ = {
 			isa = PBXGroup;
 			children = (
 				655AEFEB1C8E090000B12261 /* Info.plist */,
@@ -131,16 +131,16 @@
 				655AEFFC1C8E0F2900B12261 /* EndpointTests.swift */,
 				655AEFFE1C8E0F2E00B12261 /* ClientTests.swift */,
 			);
-			path = MondoAPITests;
+			path = MonzoAPITests;
 			sourceTree = "<group>";
 		};
 		FEB01E2E7AC2A2E52441774A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D105C53F4D78002E004F5D1 /* Pods-MondoAPI.debug.xcconfig */,
-				EB785EB3B2F2D390D26FB288 /* Pods-MondoAPI.release.xcconfig */,
-				0D92A1D7211709301DE4A9EA /* Pods-MondoAPITests.debug.xcconfig */,
-				B289E6DF716505227DE1048B /* Pods-MondoAPITests.release.xcconfig */,
+				5D105C53F4D78002E004F5D1 /* Pods-MonzoAPI.debug.xcconfig */,
+				EB785EB3B2F2D390D26FB288 /* Pods-MonzoAPI.release.xcconfig */,
+				0D92A1D7211709301DE4A9EA /* Pods-MonzoAPITests.debug.xcconfig */,
+				B289E6DF716505227DE1048B /* Pods-MonzoAPITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -152,16 +152,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655AEFDE1C8E090000B12261 /* MondoAPI.h in Headers */,
+				655AEFDE1C8E090000B12261 /* MonzoAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		655AEFD91C8E090000B12261 /* MondoAPI */ = {
+		655AEFD91C8E090000B12261 /* MonzoAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 655AEFEE1C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPI" */;
+			buildConfigurationList = 655AEFEE1C8E090000B12261 /* Build configuration list for PBXNativeTarget "MonzoAPI" */;
 			buildPhases = (
 				4551E0BBB72DB88172FD9E7B /* Check Pods Manifest.lock */,
 				655AEFD51C8E090000B12261 /* Sources */,
@@ -174,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = MondoAPI;
-			productName = MondoAPI;
-			productReference = 655AEFDA1C8E090000B12261 /* MondoAPI.framework */;
+			name = MonzoAPI;
+			productName = MonzoAPI;
+			productReference = 655AEFDA1C8E090000B12261 /* MonzoAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		655AEFE31C8E090000B12261 /* MondoAPITests */ = {
+		655AEFE31C8E090000B12261 /* MonzoAPITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 655AEFF11C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPITests" */;
+			buildConfigurationList = 655AEFF11C8E090000B12261 /* Build configuration list for PBXNativeTarget "MonzoAPITests" */;
 			buildPhases = (
 				832A40C597B3498508DABC4D /* Check Pods Manifest.lock */,
 				655AEFE01C8E090000B12261 /* Sources */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				655AEFE71C8E090000B12261 /* PBXTargetDependency */,
 			);
-			name = MondoAPITests;
-			productName = MondoAPITests;
-			productReference = 655AEFE41C8E090000B12261 /* MondoAPITests.xctest */;
+			name = MonzoAPITests;
+			productName = MonzoAPITests;
+			productReference = 655AEFE41C8E090000B12261 /* MonzoAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 655AEFD41C8E090000B12261 /* Build configuration list for PBXProject "MondoAPI" */;
+			buildConfigurationList = 655AEFD41C8E090000B12261 /* Build configuration list for PBXProject "MonzoAPI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,8 +230,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				655AEFD91C8E090000B12261 /* MondoAPI */,
-				655AEFE31C8E090000B12261 /* MondoAPITests */,
+				655AEFD91C8E090000B12261 /* MonzoAPI */,
+				655AEFE31C8E090000B12261 /* MonzoAPITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoAPI/Pods-MondoAPI-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonzoAPI/Pods-MonzoAPI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4551E0BBB72DB88172FD9E7B /* Check Pods Manifest.lock */ = {
@@ -296,7 +296,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonzoAPITests/Pods-MonzoAPITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		832A40C597B3498508DABC4D /* Check Pods Manifest.lock */ = {
@@ -326,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoAPITests/Pods-MondoAPITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonzoAPITests/Pods-MonzoAPITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -336,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65956DD61C8E3A7200360EB2 /* MondoEndpoints.swift in Sources */,
+				65956DD61C8E3A7200360EB2 /* MonzoEndpoints.swift in Sources */,
 				655AEFF71C8E091300B12261 /* Endpoint.swift in Sources */,
 				65956DCE1C8E299100360EB2 /* Errors.swift in Sources */,
 				65956DD01C8E30FC00360EB2 /* Method.swift in Sources */,
@@ -361,7 +361,7 @@
 /* Begin PBXTargetDependency section */
 		655AEFE71C8E090000B12261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 655AEFD91C8E090000B12261 /* MondoAPI */;
+			target = 655AEFD91C8E090000B12261 /* MonzoAPI */;
 			targetProxy = 655AEFE61C8E090000B12261 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -455,7 +455,7 @@
 		};
 		655AEFEF1C8E090000B12261 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D105C53F4D78002E004F5D1 /* Pods-MondoAPI.debug.xcconfig */;
+			baseConfigurationReference = 5D105C53F4D78002E004F5D1 /* Pods-MonzoAPI.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -464,10 +464,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = MondoAPI/Info.plist;
+				INFOPLIST_FILE = MonzoAPI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MondoAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MonzoAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -476,7 +476,7 @@
 		};
 		655AEFF01C8E090000B12261 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB785EB3B2F2D390D26FB288 /* Pods-MondoAPI.release.xcconfig */;
+			baseConfigurationReference = EB785EB3B2F2D390D26FB288 /* Pods-MonzoAPI.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -485,10 +485,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = MondoAPI/Info.plist;
+				INFOPLIST_FILE = MonzoAPI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MondoAPI;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MonzoAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -496,13 +496,13 @@
 		};
 		655AEFF21C8E090000B12261 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D92A1D7211709301DE4A9EA /* Pods-MondoAPITests.debug.xcconfig */;
+			baseConfigurationReference = 0D92A1D7211709301DE4A9EA /* Pods-MonzoAPITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MondoAPITests/Info.plist;
+				INFOPLIST_FILE = MonzoAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MondoAPITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MonzoAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -510,13 +510,13 @@
 		};
 		655AEFF31C8E090000B12261 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B289E6DF716505227DE1048B /* Pods-MondoAPITests.release.xcconfig */;
+			baseConfigurationReference = B289E6DF716505227DE1048B /* Pods-MonzoAPITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MondoAPITests/Info.plist;
+				INFOPLIST_FILE = MonzoAPITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MondoAPITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rocketapps.MonzoAPITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -524,7 +524,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		655AEFD41C8E090000B12261 /* Build configuration list for PBXProject "MondoAPI" */ = {
+		655AEFD41C8E090000B12261 /* Build configuration list for PBXProject "MonzoAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				655AEFEC1C8E090000B12261 /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		655AEFEE1C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPI" */ = {
+		655AEFEE1C8E090000B12261 /* Build configuration list for PBXNativeTarget "MonzoAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				655AEFEF1C8E090000B12261 /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		655AEFF11C8E090000B12261 /* Build configuration list for PBXNativeTarget "MondoAPITests" */ = {
+		655AEFF11C8E090000B12261 /* Build configuration list for PBXNativeTarget "MonzoAPITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				655AEFF21C8E090000B12261 /* Debug */,
